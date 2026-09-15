@@ -101,15 +101,15 @@ const StatsFloatingDock = () => {
                       <div className="absolute inset-0 overflow-hidden rounded-xl sm:rounded-2xl md:rounded-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-700">
                         <div className="absolute top-1/4 left-1/4 w-0.5 h-0.5 sm:w-1 sm:h-1 bg-secondary rounded-full animate-float"></div>
                         <div className="absolute top-3/4 right-1/4 w-0.5 h-0.5 sm:w-1 sm:h-1 bg-primary rounded-full animate-float-delayed"></div>
-                        <div className="absolute bottom-1/4 left-1/3 w-0.5 h-0.5 sm:w-1 sm:h-1 bg-accent rounded-full animate-float"></div>
+                        <div className="absolute bottom-1/4 left-1/3 w-0.5 h-0.5 sm:w-1 sm:h-1 bg-secondary rounded-full animate-float"></div>
                       </div>
 
                       {/* Modern Icon Container */}
                       <div className="mb-2 sm:mb-3 md:mb-4 relative">
-                        <div className={`bg-gradient-to-br ${stat.bgGradient} p-2 sm:p-3 md:p-4 rounded-xl sm:rounded-2xl border border-white/60 group-hover:border-white/90 transition-all duration-700 transform group-hover:scale-105 sm:group-hover:scale-110 group-hover:shadow-xl sm:group-hover:shadow-2xl group-hover:shadow-${index === 0 ? 'primary' : index === 1 ? 'secondary' : 'accent'}/30 relative overflow-hidden`}>
+                        <div className={`bg-gradient-to-br ${stat.bgGradient} p-2 sm:p-3 md:p-4 rounded-xl sm:rounded-2xl border border-white/60 group-hover:border-white/90 transition-all duration-700 transform group-hover:scale-105 sm:group-hover:scale-110 group-hover:shadow-xl sm:group-hover:shadow-2xl group-hover:shadow-${index === 0 ? 'primary' : index === 1 ? 'secondary' : 'secondary'}/30 relative overflow-hidden`}>
                           {/* Inner glow effect */}
                           <div className="absolute inset-0 bg-gradient-to-br from-white/30 to-transparent rounded-xl sm:rounded-2xl"></div>
-                          <Icon className={`w-4 h-4 sm:w-5 sm:h-5 md:w-7 md:h-7 ${index === 0 ? 'text-primary' : index === 1 ? 'text-secondary' : 'text-accent'} relative z-10 drop-shadow-sm`} />
+                          <Icon className={`w-4 h-4 sm:w-5 sm:h-5 md:w-7 md:h-7 ${index === 0 ? 'text-primary' : index === 1 ? 'text-secondary' : 'text-secondary'} relative z-10 drop-shadow-sm`} />
                         </div>
                       </div>
 
@@ -125,7 +125,7 @@ const StatsFloatingDock = () => {
 
                       {/* Modern Label */}
                       <motion.p 
-                        className="text-accent font-semibold text-xs sm:text-sm md:text-base font-sans leading-tight tracking-wide mb-1 sm:mb-2"
+                        className="text-navtext font-semibold text-xs sm:text-sm md:text-base font-sans leading-tight tracking-wide mb-1 sm:mb-2"
                         initial={{ opacity: 0, y: 10 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ delay: 0.7 + index * 0.2, duration: 0.5 }}

@@ -3,11 +3,11 @@ import { motion } from 'framer-motion'
 
 const WordingPlane = () => {
   const lines = [
-    "Our business is built on one fundamental principle:",
-    "our clients' success is our success...",
-    "We believe that every engagement should be",
-    "characterized by professionalism, responsiveness,",
-    "and an unwavering commitment to delivering value."
+    "Every Bokiama journey begins with a single promise:",
+    "travel beyond the ordinary, privately yours...",
+    "We believe the best itineraries are born of",
+    "trust, insider access, and quietly obsessive care ",
+    "moments you cannot plan, only earn."
   ]
 
   return (
@@ -18,7 +18,7 @@ const WordingPlane = () => {
             <motion.p
               key={index}
               className={`font-display text-xs font-bold leading-[1.45] tracking-tight sm:text-sm lg:text-xl lg:leading-[1.4] ${
-                index >= 3 ? 'text-accent/45' : 'text-accent'
+                index >= 3 ? 'text-slate-400' : 'text-primary'
               }`}
               style={{ fontFamily: "'Plus Jakarta Sans', Inter, system-ui, sans-serif" }}
               initial={{ opacity: 0, y: 12 }}

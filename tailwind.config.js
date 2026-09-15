@@ -9,10 +9,14 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: "#1E3A8A", // Dark blue from logo
-        secondary: "#10B981", // Green from logo
+        primary: "#0f172a", // Navy - Logo & Inquire button
+        secondary: "#f59e0b", // Gold - 'Discover the Heart' highlight text
+        accent: "#d97706", // Orange - 'Explore Destinations' CTA button
         neutral: "#F1F4F8",
-        accent: "#0F172A",
+        navy: "#0f172a",
+        gold: "#f59e0b",
+        orange: "#d97706",
+        navtext: "#334155",
       },
       fontFamily: {
         sans: ["Inter", "system-ui", "sans-serif"],

@@ -5,41 +5,44 @@ import { ArrowUpRight } from 'lucide-react';
 import cap1Image from '../assets/cap1.jpg';
 import cap2Image from '../assets/cap2.jpeg';
 import cap6Image from '../assets/cap6.jpeg';
-import pill4Image from '../assets/pill4.jpeg';
 import pill5Image from '../assets/pill5.jpeg';
 
 const capabilities = {
-  treaty: {
-    id: 'treaty',
-    title: 'Treaty Reinsurance',
-    description: 'Optimized programs to protect your balance sheet and capital.',
-    buttonText: 'Explore Treaty',
-    href: '/capabilities/treaty#treaty',
-    image: cap6Image,
-  },
-  facultative: {
-    id: 'facultative',
-    title: 'Facultative Reinsurance',
-    description: 'Targeted capacity for complex and high-value individual risks.',
-    buttonText: 'Explore Facultative',
-    href: '/capabilities/facultative#facultative',
-    image: cap2Image,
-  },
-  advisory: {
-    id: 'advisory',
-    title: 'Risk Advisory',
-    description: 'Data-driven analytics to anticipate and mitigate emerging risks.',
-    buttonText: 'Explore Advisory',
-    href: '/advisory',
+  savannah: {
+    id: 'savannah',
+    tag: 'Wildlife & Conservation',
+    title: 'The Untamed Savannah',
+    description: 'Gain insider access to the Mara\'s private conservancies. Experience twilight sundowners and deep immersions into local ecosystems, far from the crowds.',
+    buttonText: 'Explore the Mara',
+    href: '/destinations/maasai-mara',
     image: cap1Image,
   },
-  claims: {
-    id: 'claims',
-    title: 'Claims Consultancy',
-    description: 'Expert advocacy for equitable recoveries on complex losses.',
-    buttonText: 'Explore Claims',
-    href: '/capabilities/claims#claims',
-    image: pill4Image,
+  coast: {
+    id: 'coast',
+    tag: 'Coastal Luxury',
+    title: 'The Indian Ocean Escape',
+    description: 'Sail the coast on a private Dhow. Explore ancient ruins, hidden coves, and bespoke luxury resorts along the pristine white sands of Diani.',
+    buttonText: 'Explore the Coast',
+    href: '/destinations/diani-coast',
+    image: cap6Image,
+  },
+  north: {
+    id: 'north',
+    tag: 'Uncharted Adventure',
+    title: 'The Northern Frontier',
+    description: 'Embark on tailored trekking in the rugged north. From scenic flights over the Great Rift Valley to exclusive community encounters, this is untouched Kenya.',
+    buttonText: 'Explore the North',
+    href: '/destinations/northern-frontier',
+    image: cap2Image,
+  },
+  amboseli: {
+    id: 'amboseli',
+    tag: 'Iconic Horizons',
+    title: 'The Giants of Amboseli',
+    description: 'Wake up to uninterrupted views of Mount Kilimanjaro. Journey alongside vast elephant herds with expert guides who know the land\'s most guarded secrets.',
+    buttonText: 'Explore Amboseli',
+    href: '/destinations/amboseli',
+    image: pill5Image,
   },
 };
 
@@ -57,7 +60,7 @@ const CapabilityCard = ({ item, className = '', delay = 0 }) => (
     />
     <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/30 to-transparent" />
     <div className="absolute inset-0 bg-gradient-to-r from-black/60 via-transparent to-transparent" />
-    <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(16,185,129,0.25),transparent_50%)] opacity-0 transition-opacity duration-500 group-hover:opacity-100" />
+    <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(245,158,11,0.25),transparent_50%)] opacity-0 transition-opacity duration-500 group-hover:opacity-100" />
 
     <div className="relative z-10 mt-auto flex w-full flex-col justify-end px-4 pb-2 sm:px-5 sm:pb-3 lg:px-6 lg:pb-4 bg-gradient-to-t from-black/40 via-transparent to-transparent pt-8">
       <h3
@@ -105,47 +108,41 @@ const Services = () => {
         >
           <p className="mb-3 inline-flex items-center gap-2 font-display text-[10px] font-semibold uppercase tracking-[0.28em] text-secondary sm:text-[11px]">
             <span className="h-px w-5 bg-gradient-to-r from-secondary to-primary" />
-            Core Capabilities
+            Curated Journeys
           </p>
           <h2
             className="font-display text-lg font-bold leading-snug tracking-tight sm:text-xl lg:text-2xl"
             style={{ fontFamily: "'Plus Jakarta Sans', Inter, system-ui, sans-serif" }}
           >
             <span className="bg-gradient-to-r from-primary via-primary to-secondary bg-clip-text text-transparent">
-              Providing innovative, technically sound reinsurance solutions tailored to your unique
-              business objectives and risk profile.
+              Kenya&rsquo;s finest destinations, handpicked and privately crafted just for you.
             </span>
           </h2>
-          <p className="mt-3 max-w-xl font-sans text-xs leading-relaxed text-accent/65 sm:text-[13px]">
-            From treaty structures to facultative placements, we deliver capacity and insight that
-            protect your portfolio and fuel sustainable growth.
+          <p className="mt-3 max-w-xl font-sans text-xs leading-relaxed text-slate-600 sm:text-[13px]">
+            From the Great Migration of the Maasai Mara to the Indian Ocean shores of Diani, we design journeys as individual as you are.
           </p>
         </motion.div>
 
-        {/* Bento — wider Risk Advisory left; tighter cards on the right */}
         <div className="grid grid-cols-2 gap-3 sm:gap-4 lg:grid-cols-12 lg:gap-4">
-          {/* Left: wider tall Risk Advisory */}
           <div className="col-span-2 row-span-2 lg:col-span-5 lg:row-span-2">
             <CapabilityCard
-              item={capabilities.advisory}
+              item={capabilities.savannah}
               className="h-full min-h-[200px] sm:min-h-[250px] lg:min-h-full"
               delay={0}
             />
           </div>
 
-          {/* Top-right: narrower Treaty */}
           <div className="col-span-2 lg:col-span-7">
             <CapabilityCard
-              item={capabilities.treaty}
+              item={capabilities.coast}
               className="min-h-[160px] sm:min-h-[200px] lg:min-h-[210px]"
               delay={0.08}
             />
           </div>
 
-          {/* Bottom-right: two compact cards */}
           <div className="col-span-1 lg:col-span-3">
             <CapabilityCard
-              item={capabilities.facultative}
+              item={capabilities.north}
               className="min-h-[160px] sm:min-h-[190px] lg:min-h-[200px]"
               delay={0.16}
             />
@@ -153,7 +150,7 @@ const Services = () => {
 
           <div className="col-span-1 lg:col-span-4">
             <CapabilityCard
-              item={capabilities.claims}
+              item={capabilities.amboseli}
               className="min-h-[160px] sm:min-h-[190px] lg:min-h-[200px]"
               delay={0.22}
             />

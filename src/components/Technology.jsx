@@ -64,7 +64,7 @@ const Technology = () => {
                 </span>
               </h2>
 
-              <p className="mt-3.5 max-w-md font-sans text-xs leading-relaxed text-accent/65 sm:text-[13px]">
+              <p className="mt-3.5 max-w-md font-sans text-xs leading-relaxed text-slate-600 sm:text-[13px]">
                 We continuously invest in digital transformation to enhance operational efficiency, strengthen risk management capabilities, and deliver secure, intelligent reinsurance solutions.
               </p>
             </div>
@@ -99,7 +99,7 @@ const Technology = () => {
                         >
                           {pillar.title}
                         </h3>
-                        <p className="font-sans text-[11px] leading-relaxed text-accent/60 sm:text-xs transition-colors duration-300 group-hover:text-accent/80">
+                        <p className="font-sans text-[11px] leading-relaxed text-slate-500 sm:text-xs transition-colors duration-300 group-hover:text-slate-700">
                           {pillar.description}
                         </p>
                       </div>

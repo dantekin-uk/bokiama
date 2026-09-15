@@ -95,7 +95,7 @@ const Contact = () => {
                       Send Us a Message
                     </span>
                   </h2>
-                  <p className="mt-3.5 max-w-md font-sans text-xs leading-relaxed text-accent/65 sm:text-[13px]">
+                  <p className="mt-3.5 max-w-md font-sans text-xs leading-relaxed text-slate-600 sm:text-[13px]">
                     Fill out the form below and our team will get back to you within 24 hours.
                   </p>
 
@@ -277,7 +277,7 @@ const Contact = () => {
                           <h4 className="mb-1 font-display text-xs font-semibold tracking-tight text-primary sm:text-sm transition-colors duration-300 group-hover:text-secondary">
                             {item.title}
                           </h4>
-                          <p className="font-sans text-[11px] leading-relaxed text-accent/60 sm:text-xs transition-colors duration-300 group-hover:text-accent/80">
+                          <p className="font-sans text-[11px] leading-relaxed text-slate-500 sm:text-xs transition-colors duration-300 group-hover:text-slate-700">
                             {item.content}
                           </p>
                         </div>
@@ -302,7 +302,7 @@ const Contact = () => {
                     <h3 className="mb-3 font-display text-base font-bold text-primary sm:text-lg transition-colors duration-300 group-hover:text-secondary">
                       Global Reach
                     </h3>
-                    <p className="font-sans text-xs leading-relaxed text-accent/60 sm:text-sm transition-colors duration-300 group-hover:text-accent/80">
+                    <p className="font-sans text-xs leading-relaxed text-slate-500 sm:text-sm transition-colors duration-300 group-hover:text-slate-700">
                       While based in Nairobi, we serve clients across Africa with strategic partnerships extending to global reinsurance markets in London, Bermuda, and Singapore.
                     </p>
                   </div>

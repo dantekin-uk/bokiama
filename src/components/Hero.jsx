@@ -43,9 +43,9 @@ const Hero = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.55, delay: 0.3 }}
             >
-              <span className="bg-gradient-to-r from-neutral via-white/90 to-secondary bg-clip-text text-transparent">
-                Delivering Confidence Through<br />
-                Intelligent Risk Transfer.
+              <span className="bg-gradient-to-r from-neutral via-white/90 to-gold bg-clip-text text-transparent">
+                Beyond the Safari:<br />
+                Discover the Heart of Kenya.
               </span>
             </motion.h1>
 
@@ -55,7 +55,7 @@ const Hero = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.55, delay: 0.45 }}
             >
-              We connect African insurance markets with world-class global capacity to protect your balance sheet and drive sustainable growth.
+              Experience authentic journeys through Kenya's most iconic landscapes, guided by local experts who know every story.
             </motion.p>
 
             <motion.div
@@ -66,11 +66,11 @@ const Hero = () => {
             >
               <motion.button
                 type="button"
-                className="inline-flex items-center gap-1.5 rounded-full bg-white px-3.5 py-1.5 font-sans text-[11px] font-medium tracking-wide text-primary shadow-sm transition-colors hover:bg-secondary hover:text-white sm:px-4 sm:py-2 sm:text-xs"
+                className="inline-flex items-center gap-1.5 rounded-full bg-accent px-3.5 py-1.5 font-sans text-[11px] font-medium tracking-wide text-white shadow-sm transition-colors hover:bg-orange sm:px-4 sm:py-2 sm:text-xs"
                 whileHover={{ y: -2, scale: 1.02 }}
                 whileTap={{ scale: 0.98 }}
               >
-                Explore Capabilities
+                Explore Destinations
                 <ArrowRight size={13} strokeWidth={2.25} />
               </motion.button>
 
@@ -80,7 +80,7 @@ const Hero = () => {
                 whileHover={{ y: -1 }}
                 whileTap={{ scale: 0.98 }}
               >
-                Learn More
+                The Bokiama Way
               </motion.button>
             </motion.div>
           </motion.div>

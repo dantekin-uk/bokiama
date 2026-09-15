@@ -83,7 +83,7 @@ const Capabilities = () => {
               <p className="max-w-3xl font-display text-lg font-bold leading-snug tracking-tight text-primary sm:text-xl lg:text-2xl">
                 A clear, disciplined response to the risks that shape your balance sheet.
               </p>
-              <p className="mt-5 max-w-2xl font-sans text-xs leading-relaxed text-accent/65 sm:text-[13px]">
+              <p className="mt-5 max-w-2xl font-sans text-xs leading-relaxed text-slate-600 sm:text-[13px]">
                 {capability.heroSummary}
               </p>
             </div>
@@ -161,7 +161,7 @@ const Capabilities = () => {
                 <div className="absolute right-0 top-0 h-20 w-20 rounded-bl-[4rem] bg-secondary/8 transition-colors group-hover:bg-secondary/14" />
                 <div className="relative flex h-full flex-col justify-end">
                   <h3 className={`font-display text-sm font-semibold tracking-tight sm:text-base ${index === 0 ? 'text-white group-hover:text-secondary' : 'text-primary group-hover:text-secondary'}`}>{module.title}</h3>
-                  <p className={`mt-2 font-sans text-[11px] leading-relaxed sm:text-xs ${index === 0 ? 'text-white/75' : 'text-accent/60'}`}>{module.text}</p>
+                  <p className={`mt-2 font-sans text-[11px] leading-relaxed sm:text-xs ${index === 0 ? 'text-white/75' : 'text-slate-500'}`}>{module.text}</p>
                 </div>
               </motion.article>
             ))}

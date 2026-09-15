@@ -66,7 +66,7 @@ const Insights = () => {
                   There Are No Insights Yet
                 </span>
               </h2>
-              <p className="mt-3 max-w-xl font-sans text-xs leading-relaxed text-accent/65 sm:text-[13px]">
+              <p className="mt-3 max-w-xl font-sans text-xs leading-relaxed text-slate-600 sm:text-[13px]">
                 We are preparing thoughtful perspectives and market intelligence for the risks shaping tomorrow. Check back soon for the latest from Scoreline.
               </p>
               <Link

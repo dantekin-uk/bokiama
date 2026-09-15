@@ -2,7 +2,6 @@ import React from 'react'
 import Hero from '../components/Hero'
 import WordingPlane from '../components/WordingPlane'
 import Pillers from '../components/Pillers'
-import Technology from '../components/Technology'
 import CTA from '../components/CTA'
 import Globe from '../components/Globe'
 import Services from '../components/Services'
@@ -23,11 +22,12 @@ const Home = () => {
       {/* Globe Section */}
       <Globe />
 
-      {/* Technology Section */}
-      <Technology />
-
       {/* CTA Section */}
-      <CTA />
+      <CTA
+        title="Ready to architect your journey?"
+        text="Speak with our local experts today and let us build a seamless, hyper-personalized narrative designed entirely around your passions."
+        button="Begin Your Consultation"
+      />
 
       {/* Features/Stats Section */}
     </main>

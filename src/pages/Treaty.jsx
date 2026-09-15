@@ -75,7 +75,7 @@ const Treaty = () => {
             <h2 className="mt-4 font-display text-lg font-bold leading-snug tracking-tight sm:text-xl lg:text-2xl lg:leading-snug">
               <span className="bg-gradient-to-r from-primary via-primary to-secondary bg-clip-text text-transparent">Intelligent Risk Transfer And Capital Protection</span>
             </h2>
-            <p className="mt-3.5 max-w-xl font-sans text-xs leading-relaxed text-accent/65 sm:text-[13px]">
+            <p className="mt-3.5 max-w-xl font-sans text-xs leading-relaxed text-slate-600 sm:text-[13px]">
               Connecting complex regional risks with secure global capacity. We architect bespoke proportional and non-proportional programs to fortify your balance sheet and drive sustainable growth.
             </p>
           </motion.div>
@@ -112,7 +112,7 @@ const Treaty = () => {
                       </div>
                       <div>
                         <h3 className={`mt-1.5 font-display text-sm font-semibold tracking-tight transition-colors duration-300 sm:text-base ${index === 0 ? 'text-white group-hover:text-secondary' : 'text-primary group-hover:text-secondary'}`}>{card.title}</h3>
-                        <p className={`mt-2 font-sans text-[11px] leading-relaxed transition-colors duration-300 sm:text-xs ${index === 0 ? 'text-white/75 group-hover:text-white/90' : 'text-accent/60 group-hover:text-accent/80'}`}>{card.text}</p>
+                        <p className={`mt-2 font-sans text-[11px] leading-relaxed transition-colors duration-300 sm:text-xs ${index === 0 ? 'text-white/75 group-hover:text-white/90' : 'text-slate-500 group-hover:text-slate-700'}`}>{card.text}</p>
                       </div>
                     </div>
                   </motion.article>

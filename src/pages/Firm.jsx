@@ -135,7 +135,7 @@ const Firm = () => {
                   </span>
                 </h2>
 
-                <div className="mt-3.5 max-w-2xl space-y-3 font-sans text-xs leading-relaxed text-accent/65 sm:text-[13px]">
+                <div className="mt-3.5 max-w-2xl space-y-3 font-sans text-xs leading-relaxed text-slate-600 sm:text-[13px]">
                   <p>
                     Scoreline Re-insurance Brokers Limited is a specialist reinsurance brokerage and risk advisory firm incorporated in June 2026 to provide innovative, reliable and technically sound reinsurance solutions to insurance companies, corporations, government institutions and other organizations requiring sophisticated risk transfer mechanisms.
                   </p>
@@ -149,7 +149,7 @@ const Firm = () => {
                     <p className="font-display text-[10px] font-semibold uppercase tracking-[0.22em] text-secondary sm:text-[11px]">
                       Regulatory Status
                     </p>
-                    <p className="mt-1.5 font-sans text-xs leading-relaxed text-accent/60 sm:text-[13px]">
+                    <p className="mt-1.5 font-sans text-xs leading-relaxed text-slate-500 sm:text-[13px]">
                       Pursuing Reinsurance Broker Licence from the Insurance Regulatory Authority (IRA).
                     </p>
                   </div>
@@ -316,7 +316,7 @@ const Firm = () => {
                   </div>
                 </div>
                 <h3
-                  className="mb-3 font-display text-[10px] font-semibold uppercase tracking-[0.28em] text-accent/50 sm:text-[11px]"
+                  className="mb-3 font-display text-[10px] font-semibold uppercase tracking-[0.28em] text-slate-400 sm:text-[11px]"
                   style={{ fontFamily: "'Plus Jakarta Sans', Inter, system-ui, sans-serif" }}
                 >
                   Mission
@@ -353,7 +353,7 @@ const Firm = () => {
               A Strategic Advantage in a<br />Complex Market.
               </span>
             </h2>
-            <p className="mt-3.5 max-w-md font-sans text-xs leading-relaxed text-accent/65 sm:text-[13px]">
+            <p className="mt-3.5 max-w-md font-sans text-xs leading-relaxed text-slate-600 sm:text-[13px]">
               In today's evolving insurance landscape, choosing the right reinsurance broker directly impacts your financial strength, underwriting capacity and long-term success.
             </p>
           </motion.div>
@@ -406,7 +406,7 @@ const Firm = () => {
                     >
                       {pillar.title}
                     </h3>
-                    <p className="font-sans text-[11px] leading-relaxed text-accent/60 sm:text-xs transition-colors duration-300 group-hover:text-accent/80">
+                    <p className="font-sans text-[11px] leading-relaxed text-slate-500 sm:text-xs transition-colors duration-300 group-hover:text-slate-700">
                       {pillar.desc}
                     </p>
                   </div>

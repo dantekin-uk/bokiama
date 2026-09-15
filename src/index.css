@@ -4,10 +4,14 @@
 
 @layer base {
   :root {
-    --primary: #1E3A8A;
-    --secondary: #10B981;
+    --primary: #0f172a;
+    --secondary: #f59e0b;
+    --accent: #d97706;
     --neutral: #F1F4F8;
-    --accent: #0F172A;
+    --navy: #0f172a;
+    --gold: #f59e0b;
+    --orange: #d97706;
+    --navtext: #334155;
   }
 
   body {
@@ -110,8 +114,8 @@
   }
 
   @keyframes soft-pulse {
-    0%, 100% { box-shadow: 0 10px 15px -3px rgb(16 185 129 / 0.3); }
-    50% { box-shadow: 0 16px 30px -6px rgb(16 185 129 / 0.55); }
+    0%, 100% { box-shadow: 0 10px 15px -3px rgb(245 158 11 / 0.3); }
+    50% { box-shadow: 0 16px 30px -6px rgb(245 158 11 / 0.55); }
   }
 
   @media (prefers-reduced-motion: reduce) {

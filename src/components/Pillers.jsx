@@ -8,18 +8,18 @@ import pill8Image from '../assets/pill8.jpeg'
 
 const pillars = [
   {
-    title: 'Independent Advice',
-    text: 'Impartial guidance driven solely by our clients’ best interests.',
+    title: 'The Expert Intermediary',
+    text: 'Curating exclusive accommodations and managing all logistics so you can travel completely stress-free.',
     image: pill1Image,
   },
   {
-    title: 'Technical Excellence',
-    text: 'Deep expertise in treaty and facultative structuring.',
+    title: 'Unrivaled Access',
+    text: 'Unlocking hidden gems, private entries, and authentic experiences unavailable on mainstream travel platforms.',
     image: pill8Image,
   },
   {
-    title: 'Global Capacity',
-    text: 'Broad market access leveraging international reinsurers.',
+    title: 'White-Glove Support',
+    text: 'Proactive, 24/7 care ensuring your absolute safety, comfort, and peace of mind at every step.',
     image: pill3Image,
   },
 ]
@@ -91,7 +91,7 @@ const Pillers = () => {
             <div className="lg:sticky lg:top-28">
               <span className="inline-flex items-center gap-2 font-display text-[10px] font-semibold uppercase tracking-[0.28em] text-secondary sm:text-[11px]">
                 <span className="h-px w-5 bg-gradient-to-r from-secondary to-primary" />
-                The Scoreline Edge
+                THE BOKIAMA WAY
               </span>
 
               <h2
@@ -99,13 +99,12 @@ const Pillers = () => {
                 style={{ fontFamily: "'Plus Jakarta Sans', Inter, system-ui, sans-serif" }}
               >
                 <span className="bg-gradient-to-r from-primary via-primary to-secondary bg-clip-text text-transparent">
-                  Delivering Confidence Through Intelligent Risk Transfer.
+                  We don&rsquo;t just book trips. We architect life changing narratives.
                 </span>
               </h2>
 
-              <p className="mt-3 max-w-md font-sans text-xs leading-relaxed text-accent/65 sm:text-[13px]">
-                We combine technical excellence, strong governance, and global capacity to safeguard
-                the long-term stability of insurance markets.
+              <p className="mt-3 max-w-md font-sans text-xs leading-relaxed text-slate-600 sm:text-[13px]">
+                Moving beyond cookie cutter itineraries to build custom journeys around your passions.
               </p>
 
               <a
@@ -113,7 +112,7 @@ const Pillers = () => {
                 className="mt-5 inline-flex w-fit items-center justify-center rounded-full bg-gradient-to-r from-primary to-secondary px-6 py-2.5 font-display text-sm font-semibold text-white shadow-md shadow-primary/20 transition-all duration-300 hover:-translate-y-0.5 hover:from-secondary hover:to-primary hover:shadow-secondary/30"
                 style={{ fontFamily: "'Plus Jakarta Sans', Inter, system-ui, sans-serif" }}
               >
-                Partner With Us
+                Plan Your Journey
               </a>
             </div>
           </motion.div>

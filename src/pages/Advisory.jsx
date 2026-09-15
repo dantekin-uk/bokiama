@@ -184,12 +184,12 @@ const Advisory = () => {
                 <h3 className="font-display text-sm font-bold tracking-tight text-primary sm:text-base" style={{ fontFamily: "'Plus Jakarta Sans', Inter, system-ui, sans-serif" }}>
                   Claims Advisory
                 </h3>
-                <p className="mt-1.5 text-[10px] leading-relaxed text-accent/60 sm:text-[11px]">
+                <p className="mt-1.5 text-[10px] leading-relaxed text-slate-500 sm:text-[11px]">
                   Turn claims complexity into decisive, equitable recovery.
                 </p>
                 <div className="mt-4 grid grid-cols-2 gap-1.5">
                   {['Claims Consultancy', 'Strategic Claims Recovery', 'Settlement Negotiation', 'Dispute Resolution', 'Claims Data Analytics'].map((item) => (
-                    <div key={item} className="rounded-lg border border-primary/10 bg-white/65 px-2 py-1.5 font-sans text-[10px] leading-snug text-accent/75 transition-colors group-hover:bg-white">
+                    <div key={item} className="rounded-lg border border-primary/10 bg-white/65 px-2 py-1.5 font-sans text-[10px] leading-snug text-slate-600 transition-colors group-hover:bg-white">
                       {item}
                     </div>
                   ))}
@@ -242,7 +242,7 @@ const Advisory = () => {
                     Driving Decisions With Advanced Market Intelligence
                   </span>
                 </h2>
-                <p className="mt-3 max-w-2xl font-sans text-xs leading-relaxed text-accent/65 sm:text-[13px]">
+                <p className="mt-3 max-w-2xl font-sans text-xs leading-relaxed text-slate-600 sm:text-[13px]">
                   In a volatile risk landscape, historical data alone is no longer sufficient. We harness advanced analytics, real-time market intelligence, and proprietary risk assessment tools to move our clients from reactive buying to proactive capital optimization.
                 </p>
               </motion.div>
